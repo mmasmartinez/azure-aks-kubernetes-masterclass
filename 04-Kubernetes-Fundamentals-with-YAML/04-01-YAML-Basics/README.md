@@ -42,7 +42,7 @@ person: # Dictionary
   hobbies: # List  
     - cycling
     - cooking
-  hobbies: [cycling, cooking]   # List with a differnt notation  
+  hobbies: [cycling, cooking]   # List with a different notation  
   friends: # 
     - name: friend1
       age: 22
