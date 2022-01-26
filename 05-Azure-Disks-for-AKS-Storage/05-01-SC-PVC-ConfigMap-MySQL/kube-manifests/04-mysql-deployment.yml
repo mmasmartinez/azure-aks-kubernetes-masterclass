@@ -8,7 +8,7 @@ spec:
     matchLabels:
       app: mysql
   strategy:
-    type: Recreate 
+    type: Recreate # Can be "Recreate" or "RollingUpdate". "RollingUpdate" is the default strategy
   template: 
     metadata: 
       labels: 
